@@ -1,3 +1,10 @@
 *.tmp
 *.log
 .DS_Store
+# 主仓 .cache 上其它本地目录（不纳入 saa-data）
+/temperature/
+/gold-returns/
+/cb-valuation/
+/commodity-temperature/
+/index-valuation/
+/value-screener/
