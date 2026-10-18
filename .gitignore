@@ -8,3 +8,9 @@
 /commodity-temperature/
 /index-valuation/
 /value-screener/
+/daily-report/
+/tech-analysis/
+/fund-query/
+/pylib/
+# cape 只入库 raw 原始序列，临时脚本留在本地
+/cape/*.py
