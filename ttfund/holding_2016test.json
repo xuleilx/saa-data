@@ -1,0 +1,330 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "skill_id": "TTFUND_HOLDING_INFO",
+    "skill_name": "天天基金重仓股",
+    "raw_result": {
+      "status_code": 200,
+      "body": {
+        "success": false,
+        "errorCode": 500,
+        "message": "节点 PythonCodeNode_report_start_date 执行失败: report_period 必须在最新可用报告期 2026-06-30 向前 5 年范围内，超出范围: 2016-12-31",
+        "data": {
+          "fund_profile": {
+            "input_fund_id": "001717",
+            "fund_code": "001717",
+            "fund_name": "工银前沿医疗股票A",
+            "fund_type": "股票型"
+          },
+          "request_context": {
+            "report_period": "2016-12-31,2017-06-30",
+            "period_mode": "latest",
+            "holding_type": "stock"
+          },
+          "holding_overview": {
+            "data_lag_notice": "持仓数据通常基于最近一期定期报告披露，可能存在 1-3 个月滞后，请结合 report_date 一并阅读。"
+          },
+          "ai_summary": {
+            "report_date": "2026-06-30",
+            "fund_code": "001717",
+            "text": "该基金聚焦医药生物行业。主要仓位配置在创新药研发领域，如海思科和恒瑞医药。同时布局生物制药、医药研发服务、特色原料药和高端医疗器械领域，包括荣昌生物、药明康德、石药创新和奕瑞科技。"
+          },
+          "disambiguation_candidates": [
+            {
+              "isBuy": "1",
+              "abbname": "GYQYYLGPA",
+              "f": "",
+              "fundexchg": "1",
+              "shortname": "工银前沿医疗股票A",
+              "p": "F",
+              "stkexchg": "1",
+              "ftype": "股票型",
+              "t": "S",
+              "newtexch": "",
+              "secondfcodetype": 0,
+              "hightlight": "<font color='#ff4400'>0</font><font color='#ff4400'>0</font><font color='#ff4400'>1</font><font color='#ff4400'>7</font><font color='#ff4400'>1</font><font color='#ff4400'>7</font>_工银前沿医疗股票A",
+              "abbtname": "GONGYINQIANYANYILIAOGUPIAOA",
+              "fcodetype": 0,
+              "isOpenTJD": "0",
+              "foreshortname": "工银前沿医疗股票A",
+              "showfcode": "001717",
+              "fcode": "001717"
+            }
+          ],
+          "resolution_selected": {
+            "isBuy": "1",
+            "abbname": "GYQYYLGPA",
+            "f": "",
+            "fundexchg": "1",
+            "shortname": "工银前沿医疗股票A",
+            "p": "F",
+            "stkexchg": "1",
+            "ftype": "股票型",
+            "t": "S",
+            "newtexch": "",
+            "secondfcodetype": 0,
+            "hightlight": "<font color='#ff4400'>0</font><font color='#ff4400'>0</font><font color='#ff4400'>1</font><font color='#ff4400'>7</font><font color='#ff4400'>1</font><font color='#ff4400'>7</font>_工银前沿医疗股票A",
+            "abbtname": "GONGYINQIANYANYILIAOGUPIAOA",
+            "fcodetype": 0,
+            "isOpenTJD": "0",
+            "foreshortname": "工银前沿医疗股票A",
+            "showfcode": "001717",
+            "fcode": "001717"
+          },
+          "risk_disclaimer": "风险提示：基金持仓、行业配置和 AI 摘要均基于公开披露报告或历史加工结果，不代表未来表现，也不等同于实时持仓，基金投资有风险，购买前请结合自身风险承受能力审慎决策。"
+        }
+      }
+    },
+    "field_interpretations": [
+      {
+        "field": "success",
+        "description": "接口是否成功",
+        "interpretation": "true 表示 持仓查询与 workflow 聚合成功"
+      },
+      {
+        "field": "errorCode",
+        "description": "业务错误码",
+        "interpretation": "0 表示成功，非 0 表示失败"
+      },
+      {
+        "field": "data.fund_profile",
+        "description": "基金基础信息与本次输入信息",
+        "interpretation": null
+      },
+      {
+        "field": "data.fund_profile.input_fund_id",
+        "description": "原始输入的基金代码或基金名称",
+        "interpretation": null
+      },
+      {
+        "field": "data.fund_profile.fund_code",
+        "description": "resolver 解析后的基金代码",
+        "interpretation": null
+      },
+      {
+        "field": "data.fund_profile.fund_name",
+        "description": "resolver 解析后的基金名称",
+        "interpretation": null
+      },
+      {
+        "field": "data.fund_profile.fund_type",
+        "description": "搜索结果返回的基金类型",
+        "interpretation": null
+      },
+      {
+        "field": "data.fund_profile.fund_btype",
+        "description": "基金二级类型",
+        "interpretation": null
+      },
+      {
+        "field": "data.fund_profile.etf_code",
+        "description": "ETF 联接或关联代码",
+        "interpretation": null
+      },
+      {
+        "field": "data.fund_profile.etf_shortname",
+        "description": "ETF 联接或关联基金简称",
+        "interpretation": null
+      },
+      {
+        "field": "data.request_context.report_period",
+        "description": "请求中的报告期字符串，格式 YYYY-MM-DD，多个用英文逗号分隔",
+        "interpretation": null
+      },
+      {
+        "field": "data.request_context.period_mode",
+        "description": "实际报告期查询模式",
+        "interpretation": "latest / specified / recent_5y"
+      },
+      {
+        "field": "data.request_context.holding_type",
+        "description": "请求中的持仓类型过滤",
+        "interpretation": "stock / bond / all"
+      },
+      {
+        "field": "data.holding_overview.report_date",
+        "description": "当前展示报告期，通常取 periods 的第一期",
+        "interpretation": null
+      },
+      {
+        "field": "data.holding_overview.available_report_dates",
+        "description": "该基金实际可用报告期列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.holding_overview.top10_ratio_components",
+        "description": "重仓股票占净值比原始列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.holding_overview.data_lag_notice",
+        "description": "数据滞后说明",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock",
+        "description": "当前展示报告期的重仓股票列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock.GPJC",
+        "description": "股票持仓名称列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock.GPDM",
+        "description": "股票持仓代码列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock.JZBL",
+        "description": "股票持仓占基金净值比例列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock.PCTNVCHGTYPE",
+        "description": "股票持仓变化类型列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock.PCTNVCHG",
+        "description": "股票持仓较上期变化幅度列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock.INDEXCODE",
+        "description": "股票持仓所属行业代码列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock.INDEXNAME",
+        "description": "股票持仓所属行业名称列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock.HOLDCOUNT",
+        "description": "股票进入重仓列表期数或统计次数",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.bond",
+        "description": "当前展示报告期的重仓债券列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.fof",
+        "description": "当前展示报告期的 FOF/持仓基金列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.etf_code",
+        "description": "ETF 联接或关联代码",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.etf_shortname",
+        "description": "ETF 联接或关联基金简称",
+        "interpretation": null
+      },
+      {
+        "field": "data.asset_allocation",
+        "description": "当前展示报告期的资产配置",
+        "interpretation": null
+      },
+      {
+        "field": "data.industry_allocation",
+        "description": "当前展示报告期的行业配置",
+        "interpretation": null
+      },
+      {
+        "field": "data.period_mode",
+        "description": "本次 持仓查询采用的报告期模式",
+        "interpretation": null
+      },
+      {
+        "field": "data.periods",
+        "description": "按报告期聚合后的完整持仓结果列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.available_report_dates",
+        "description": "该基金实际可用报告期列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.warnings",
+        "description": "取数流程返回的非阻断提示",
+        "interpretation": null
+      },
+      {
+        "field": "data.invalid_fund_codes",
+        "description": "无效或无可用持仓数据的基金代码列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.field_profile",
+        "description": "字段口径标识",
+        "interpretation": null
+      },
+      {
+        "field": "data.source",
+        "description": "结果口径标识",
+        "interpretation": null
+      },
+      {
+        "field": "data.ai_summary.report_date",
+        "description": "AI 摘要接口返回的摘要日期；该接口仅按基金代码查询，不随 report_period 过滤，可能与本次指定报告期不一致",
+        "interpretation": null
+      },
+      {
+        "field": "data.ai_summary.fund_code",
+        "description": "AI 摘要对应基金代码",
+        "interpretation": null
+      },
+      {
+        "field": "data.ai_summary.text",
+        "description": "AI 持仓摘要文本，由独立 AI 摘要接口按基金代码补充；使用时应同时关注 data.ai_summary.report_date",
+        "interpretation": null
+      },
+      {
+        "field": "data.disambiguation_candidates",
+        "description": "名称歧义时的候选基金列表，供上层引导用户选择",
+        "interpretation": null
+      },
+      {
+        "field": "data.resolution_selected",
+        "description": "resolver 自动选中的基金候选",
+        "interpretation": null
+      },
+      {
+        "field": "data.risk_disclaimer",
+        "description": "风险提示语",
+        "interpretation": null
+      }
+    ],
+    "resolution_info": {
+      "resolver_id": "fund_code_by_identifier",
+      "input_type": "fund_id",
+      "input_field": "fund_id",
+      "input_value": "001717",
+      "selected_code": "001717",
+      "selected_name": "工银前沿医疗股票A",
+      "selected_partner": null,
+      "match_level": "search_order",
+      "match_score": 10,
+      "candidate_count": 1,
+      "total_count": 1,
+      "used_fallback": true,
+      "auto_selected": true,
+      "needs_disambiguation": false,
+      "warning": "根据模糊搜索结果自动选择了第一条候选结果，可能存在误匹配。",
+      "candidates": [
+        {
+          "code": "001717",
+          "name": "工银前沿医疗股票A"
+        }
+      ]
+    }
+  }
+}

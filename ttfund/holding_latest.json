@@ -1,0 +1,1290 @@
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "skill_id": "TTFUND_HOLDING_INFO",
+    "skill_name": "天天基金重仓股",
+    "raw_result": {
+      "status_code": 200,
+      "body": {
+        "success": true,
+        "errorCode": 0,
+        "message": "OK",
+        "data": {
+          "fund_profile": {
+            "input_fund_id": "工银前沿医疗股票",
+            "fund_code": "001717",
+            "fund_name": "工银前沿医疗股票A",
+            "fund_type": "股票型",
+            "fund_btype": "001001",
+            "etf_code": "",
+            "etf_shortname": ""
+          },
+          "request_context": {
+            "report_period": "",
+            "period_mode": "latest",
+            "holding_type": "stock"
+          },
+          "holding_overview": {
+            "report_date": "2026-06-30",
+            "available_report_dates": [
+              "2026-06-30"
+            ],
+            "top10_ratio_components": [
+              9.74,
+              9.36,
+              8.56,
+              7.96,
+              5.44,
+              5.36,
+              5.09,
+              4.77,
+              2.82,
+              2.58
+            ],
+            "data_lag_notice": "持仓数据通常基于最近一期定期报告披露，可能存在 1-3 个月滞后，请结合 report_date 一并阅读。"
+          },
+          "top_holdings": {
+            "stock": [
+              {
+                "GPDM": "002653",
+                "GPJC": "海思科",
+                "INDEXCODE": "029011",
+                "INDEXNAME": "医药生物",
+                "JZBL": 9.74,
+                "PCTNVCHG": 0.68,
+                "PCTNVCHGTYPE": "增持",
+                "HOLDCOUNT": 6,
+                "ISINVISBL": "0",
+                "NEWTEXCH": "0",
+                "CCSZ": 82925
+              },
+              {
+                "GPDM": "603259",
+                "GPJC": "药明康德",
+                "INDEXCODE": "029011",
+                "INDEXNAME": "医药生物",
+                "JZBL": 9.36,
+                "PCTNVCHG": 3.51,
+                "PCTNVCHGTYPE": "增持",
+                "HOLDCOUNT": 7,
+                "ISINVISBL": "0",
+                "NEWTEXCH": "1",
+                "CCSZ": 79686.4
+              },
+              {
+                "GPDM": "600276",
+                "GPJC": "恒瑞医药",
+                "INDEXCODE": "029011",
+                "INDEXNAME": "医药生物",
+                "JZBL": 8.56,
+                "PCTNVCHG": -0.85,
+                "PCTNVCHGTYPE": "减持",
+                "HOLDCOUNT": 15,
+                "ISINVISBL": "0",
+                "NEWTEXCH": "1",
+                "CCSZ": 72856
+              },
+              {
+                "GPDM": "002422",
+                "GPJC": "科伦药业",
+                "INDEXCODE": "029011",
+                "INDEXNAME": "医药生物",
+                "JZBL": 7.96,
+                "PCTNVCHG": -0.31,
+                "PCTNVCHGTYPE": "减持",
+                "HOLDCOUNT": 11,
+                "ISINVISBL": "0",
+                "NEWTEXCH": "0",
+                "CCSZ": 67772.088
+              },
+              {
+                "GPDM": "300765",
+                "GPJC": "石药创新",
+                "INDEXCODE": "029011",
+                "INDEXNAME": "医药生物",
+                "JZBL": 5.44,
+                "PCTNVCHG": 0.14,
+                "PCTNVCHGTYPE": "增持",
+                "HOLDCOUNT": 6,
+                "ISINVISBL": "0",
+                "NEWTEXCH": "0",
+                "CCSZ": 46291
+              },
+              {
+                "GPDM": "688331",
+                "GPJC": "荣昌生物",
+                "INDEXCODE": "029011",
+                "INDEXNAME": "医药生物",
+                "JZBL": 5.36,
+                "PCTNVCHG": -0.01,
+                "PCTNVCHGTYPE": "减持",
+                "HOLDCOUNT": 2,
+                "ISINVISBL": "0",
+                "NEWTEXCH": "1",
+                "CCSZ": 45591
+              },
+              {
+                "GPDM": "688235",
+                "GPJC": "百济神州",
+                "INDEXCODE": "029011",
+                "INDEXNAME": "医药生物",
+                "JZBL": 5.09,
+                "PCTNVCHG": 0.08,
+                "PCTNVCHGTYPE": "增持",
+                "HOLDCOUNT": 8,
+                "ISINVISBL": "0",
+                "NEWTEXCH": "1",
+                "CCSZ": 43283.7
+              },
+              {
+                "GPDM": "688266",
+                "GPJC": "泽璟制药",
+                "INDEXCODE": "029011",
+                "INDEXNAME": "医药生物",
+                "JZBL": 4.77,
+                "PCTNVCHG": 0.65,
+                "PCTNVCHGTYPE": "增持",
+                "HOLDCOUNT": 6,
+                "ISINVISBL": "0",
+                "NEWTEXCH": "1",
+                "CCSZ": 40597.68
+              },
+              {
+                "GPDM": "300347",
+                "GPJC": "泰格医药",
+                "INDEXCODE": "029011",
+                "INDEXNAME": "医药生物",
+                "JZBL": 2.82,
+                "PCTNVCHG": 2.82,
+                "PCTNVCHGTYPE": "新增",
+                "HOLDCOUNT": 1,
+                "ISINVISBL": "0",
+                "NEWTEXCH": "0",
+                "CCSZ": 24000.336
+              },
+              {
+                "GPDM": "688301",
+                "GPJC": "奕瑞科技",
+                "INDEXCODE": "029011",
+                "INDEXNAME": "医药生物",
+                "JZBL": 2.58,
+                "PCTNVCHG": 2.58,
+                "PCTNVCHGTYPE": "新增",
+                "HOLDCOUNT": 1,
+                "ISINVISBL": "0",
+                "NEWTEXCH": "1",
+                "CCSZ": 21964.2564
+              }
+            ],
+            "bond": [],
+            "fof": [],
+            "etf_code": "",
+            "etf_shortname": ""
+          },
+          "asset_allocation": {
+            "BZDM": "001717",
+            "FSRQ": "2026-06-30",
+            "JZC": 85.1,
+            "JJ": "",
+            "GP": 85.95,
+            "ZQ": "",
+            "HB": 15.03,
+            "QT": 0,
+            "GP_AVG_BTYPE": 89.71,
+            "JJCHGRT": "",
+            "BSPCTNV": "",
+            "ABSPCTNV": "",
+            "BREPOPCTNV": "",
+            "MPCTNV": 15.03,
+            "OIPCTNV": 0.51
+          },
+          "industry_allocation": [
+            {
+              "HYMC": "合计",
+              "SZ": 731469.506701,
+              "ZJZBL": 85.95,
+              "FSRQ": "2026-06-30"
+            },
+            {
+              "HYMC": "制造业",
+              "SZ": 572193.332796,
+              "ZJZBL": 67.24,
+              "FSRQ": "2026-06-30"
+            },
+            {
+              "HYMC": "科学研究和技术服务业",
+              "SZ": 154969.371433,
+              "ZJZBL": 18.21,
+              "FSRQ": "2026-06-30"
+            },
+            {
+              "HYMC": "批发和零售业",
+              "SZ": 4218,
+              "ZJZBL": 0.5,
+              "FSRQ": "2026-06-30"
+            },
+            {
+              "HYMC": "电力、热力、燃气及水生产和供应业",
+              "SZ": 85.029144,
+              "ZJZBL": 0.01,
+              "FSRQ": "2026-06-30"
+            },
+            {
+              "HYMC": "采矿业",
+              "SZ": 3.614982,
+              "ZJZBL": 0,
+              "FSRQ": "2026-06-30"
+            },
+            {
+              "HYMC": "交通运输、仓储和邮政业",
+              "SZ": 0.158346,
+              "ZJZBL": 0,
+              "FSRQ": "2026-06-30"
+            },
+            {
+              "HYMC": "建筑业",
+              "SZ": "",
+              "ZJZBL": "",
+              "FSRQ": "2026-06-30"
+            },
+            {
+              "HYMC": "农、林、牧、渔业",
+              "SZ": "",
+              "ZJZBL": "",
+              "FSRQ": "2026-06-30"
+            },
+            {
+              "HYMC": "水利、环境和公共设施管理业",
+              "SZ": "",
+              "ZJZBL": "",
+              "FSRQ": "2026-06-30"
+            }
+          ],
+          "period_mode": "latest",
+          "periods": [
+            {
+              "asset_allocation": {
+                "BZDM": "001717",
+                "FSRQ": "2026-06-30",
+                "JZC": 85.1,
+                "JJ": "",
+                "GP": 85.95,
+                "ZQ": "",
+                "HB": 15.03,
+                "QT": 0,
+                "GP_AVG_BTYPE": 89.71,
+                "JJCHGRT": "",
+                "BSPCTNV": "",
+                "ABSPCTNV": "",
+                "BREPOPCTNV": "",
+                "MPCTNV": 15.03,
+                "OIPCTNV": 0.51
+              },
+              "top_holdings": {
+                "stocks": [
+                  {
+                    "GPDM": "002653",
+                    "GPJC": "海思科",
+                    "INDEXCODE": "029011",
+                    "INDEXNAME": "医药生物",
+                    "JZBL": 9.74,
+                    "PCTNVCHG": 0.68,
+                    "PCTNVCHGTYPE": "增持",
+                    "HOLDCOUNT": 6,
+                    "ISINVISBL": "0",
+                    "NEWTEXCH": "0",
+                    "CCSZ": 82925
+                  },
+                  {
+                    "GPDM": "603259",
+                    "GPJC": "药明康德",
+                    "INDEXCODE": "029011",
+                    "INDEXNAME": "医药生物",
+                    "JZBL": 9.36,
+                    "PCTNVCHG": 3.51,
+                    "PCTNVCHGTYPE": "增持",
+                    "HOLDCOUNT": 7,
+                    "ISINVISBL": "0",
+                    "NEWTEXCH": "1",
+                    "CCSZ": 79686.4
+                  },
+                  {
+                    "GPDM": "600276",
+                    "GPJC": "恒瑞医药",
+                    "INDEXCODE": "029011",
+                    "INDEXNAME": "医药生物",
+                    "JZBL": 8.56,
+                    "PCTNVCHG": -0.85,
+                    "PCTNVCHGTYPE": "减持",
+                    "HOLDCOUNT": 15,
+                    "ISINVISBL": "0",
+                    "NEWTEXCH": "1",
+                    "CCSZ": 72856
+                  },
+                  {
+                    "GPDM": "002422",
+                    "GPJC": "科伦药业",
+                    "INDEXCODE": "029011",
+                    "INDEXNAME": "医药生物",
+                    "JZBL": 7.96,
+                    "PCTNVCHG": -0.31,
+                    "PCTNVCHGTYPE": "减持",
+                    "HOLDCOUNT": 11,
+                    "ISINVISBL": "0",
+                    "NEWTEXCH": "0",
+                    "CCSZ": 67772.088
+                  },
+                  {
+                    "GPDM": "300765",
+                    "GPJC": "石药创新",
+                    "INDEXCODE": "029011",
+                    "INDEXNAME": "医药生物",
+                    "JZBL": 5.44,
+                    "PCTNVCHG": 0.14,
+                    "PCTNVCHGTYPE": "增持",
+                    "HOLDCOUNT": 6,
+                    "ISINVISBL": "0",
+                    "NEWTEXCH": "0",
+                    "CCSZ": 46291
+                  },
+                  {
+                    "GPDM": "688331",
+                    "GPJC": "荣昌生物",
+                    "INDEXCODE": "029011",
+                    "INDEXNAME": "医药生物",
+                    "JZBL": 5.36,
+                    "PCTNVCHG": -0.01,
+                    "PCTNVCHGTYPE": "减持",
+                    "HOLDCOUNT": 2,
+                    "ISINVISBL": "0",
+                    "NEWTEXCH": "1",
+                    "CCSZ": 45591
+                  },
+                  {
+                    "GPDM": "688235",
+                    "GPJC": "百济神州",
+                    "INDEXCODE": "029011",
+                    "INDEXNAME": "医药生物",
+                    "JZBL": 5.09,
+                    "PCTNVCHG": 0.08,
+                    "PCTNVCHGTYPE": "增持",
+                    "HOLDCOUNT": 8,
+                    "ISINVISBL": "0",
+                    "NEWTEXCH": "1",
+                    "CCSZ": 43283.7
+                  },
+                  {
+                    "GPDM": "688266",
+                    "GPJC": "泽璟制药",
+                    "INDEXCODE": "029011",
+                    "INDEXNAME": "医药生物",
+                    "JZBL": 4.77,
+                    "PCTNVCHG": 0.65,
+                    "PCTNVCHGTYPE": "增持",
+                    "HOLDCOUNT": 6,
+                    "ISINVISBL": "0",
+                    "NEWTEXCH": "1",
+                    "CCSZ": 40597.68
+                  },
+                  {
+                    "GPDM": "300347",
+                    "GPJC": "泰格医药",
+                    "INDEXCODE": "029011",
+                    "INDEXNAME": "医药生物",
+                    "JZBL": 2.82,
+                    "PCTNVCHG": 2.82,
+                    "PCTNVCHGTYPE": "新增",
+                    "HOLDCOUNT": 1,
+                    "ISINVISBL": "0",
+                    "NEWTEXCH": "0",
+                    "CCSZ": 24000.336
+                  },
+                  {
+                    "GPDM": "688301",
+                    "GPJC": "奕瑞科技",
+                    "INDEXCODE": "029011",
+                    "INDEXNAME": "医药生物",
+                    "JZBL": 2.58,
+                    "PCTNVCHG": 2.58,
+                    "PCTNVCHGTYPE": "新增",
+                    "HOLDCOUNT": 1,
+                    "ISINVISBL": "0",
+                    "NEWTEXCH": "1",
+                    "CCSZ": 21964.2564
+                  }
+                ],
+                "bonds": [],
+                "funds": []
+              },
+              "industry_allocation": [
+                {
+                  "HYMC": "合计",
+                  "SZ": 731469.506701,
+                  "ZJZBL": 85.95,
+                  "FSRQ": "2026-06-30"
+                },
+                {
+                  "HYMC": "制造业",
+                  "SZ": 572193.332796,
+                  "ZJZBL": 67.24,
+                  "FSRQ": "2026-06-30"
+                },
+                {
+                  "HYMC": "科学研究和技术服务业",
+                  "SZ": 154969.371433,
+                  "ZJZBL": 18.21,
+                  "FSRQ": "2026-06-30"
+                },
+                {
+                  "HYMC": "批发和零售业",
+                  "SZ": 4218,
+                  "ZJZBL": 0.5,
+                  "FSRQ": "2026-06-30"
+                },
+                {
+                  "HYMC": "电力、热力、燃气及水生产和供应业",
+                  "SZ": 85.029144,
+                  "ZJZBL": 0.01,
+                  "FSRQ": "2026-06-30"
+                },
+                {
+                  "HYMC": "采矿业",
+                  "SZ": 3.614982,
+                  "ZJZBL": 0,
+                  "FSRQ": "2026-06-30"
+                },
+                {
+                  "HYMC": "交通运输、仓储和邮政业",
+                  "SZ": 0.158346,
+                  "ZJZBL": 0,
+                  "FSRQ": "2026-06-30"
+                },
+                {
+                  "HYMC": "建筑业",
+                  "SZ": "",
+                  "ZJZBL": "",
+                  "FSRQ": "2026-06-30"
+                },
+                {
+                  "HYMC": "农、林、牧、渔业",
+                  "SZ": "",
+                  "ZJZBL": "",
+                  "FSRQ": "2026-06-30"
+                },
+                {
+                  "HYMC": "水利、环境和公共设施管理业",
+                  "SZ": "",
+                  "ZJZBL": "",
+                  "FSRQ": "2026-06-30"
+                }
+              ],
+              "distributions": {
+                "fund_types": [],
+                "bond_types": [
+                  {
+                    "FCODE": "001717",
+                    "REPORTDATE": "2026-06-30",
+                    "BONDTYPENEW": "1",
+                    "PCTNV": 0
+                  },
+                  {
+                    "FCODE": "001717",
+                    "REPORTDATE": "2026-06-30",
+                    "BONDTYPENEW": "2",
+                    "PCTNV": 0
+                  },
+                  {
+                    "FCODE": "001717",
+                    "REPORTDATE": "2026-06-30",
+                    "BONDTYPENEW": "4",
+                    "PCTNV": 0
+                  },
+                  {
+                    "FCODE": "001717",
+                    "REPORTDATE": "2026-06-30",
+                    "BONDTYPENEW": "3",
+                    "PCTNV": 0
+                  }
+                ],
+                "stock_topics": [
+                  {
+                    "FCODE": "001717",
+                    "REPORTDATE": "2026-06-30",
+                    "TOPICCODE": "医药",
+                    "PCTNV": 85.67
+                  },
+                  {
+                    "FCODE": "001717",
+                    "REPORTDATE": "2026-06-30",
+                    "TOPICCODE": "科技",
+                    "PCTNV": 0.25
+                  },
+                  {
+                    "FCODE": "001717",
+                    "REPORTDATE": "2026-06-30",
+                    "TOPICCODE": "新能源",
+                    "PCTNV": 0.01
+                  },
+                  {
+                    "FCODE": "001717",
+                    "REPORTDATE": "2026-06-30",
+                    "TOPICCODE": "周期",
+                    "PCTNV": 0
+                  },
+                  {
+                    "FCODE": "001717",
+                    "REPORTDATE": "2026-06-30",
+                    "TOPICCODE": "消费",
+                    "PCTNV": 0
+                  },
+                  {
+                    "FCODE": "001717",
+                    "REPORTDATE": "2026-06-30",
+                    "TOPICCODE": "基建地产",
+                    "PCTNV": 0
+                  },
+                  {
+                    "FCODE": "001717",
+                    "REPORTDATE": "2026-06-30",
+                    "TOPICCODE": "制造",
+                    "PCTNV": 0
+                  }
+                ]
+              },
+              "money_market": null,
+              "report_date": "2026-06-30",
+              "missing_sections": [
+                "bond",
+                "fof",
+                "fund_distribution",
+                "money_market"
+              ]
+            }
+          ],
+          "available_report_dates": [
+            "2026-06-30"
+          ],
+          "warnings": [],
+          "invalid_fund_codes": [],
+          "field_profile": "fund_position_page_v1",
+          "source": "FundArchivesMongo",
+          "ai_summary": {
+            "report_date": "2026-06-30",
+            "fund_code": "001717",
+            "text": "该基金聚焦医药生物行业。主要仓位配置在创新药研发领域，如海思科和恒瑞医药。同时布局生物制药、医药研发服务、特色原料药和高端医疗器械领域，包括荣昌生物、药明康德、石药创新和奕瑞科技。"
+          },
+          "disambiguation_candidates": [
+            {
+              "fcode": "001717",
+              "showfcode": "001717",
+              "ftype": "股票型",
+              "shortname": "工银前沿医疗股票A",
+              "hightlight": "001717_<font color='#ff4400'>工银</font><font color='#ff4400'>前沿</font><font color='#ff4400'>医疗</font><font color='#ff4400'>股票</font>A",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYQYYLGPA",
+              "abbtname": "GONGYINQIANYANYILIAOGUPIAOA",
+              "foreshortname": "工银前沿医疗股票A",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            },
+            {
+              "fcode": "010685",
+              "showfcode": "010685",
+              "ftype": "股票型",
+              "shortname": "工银前沿医疗股票C",
+              "hightlight": "010685_<font color='#ff4400'>工银</font><font color='#ff4400'>前沿</font><font color='#ff4400'>医疗</font><font color='#ff4400'>股票</font>C",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYQYYLGPC",
+              "abbtname": "GONGYINQIANYANYILIAOGUPIAOC",
+              "foreshortname": "工银前沿医疗股票C",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            },
+            {
+              "fcode": "000831",
+              "showfcode": "000831",
+              "ftype": "股票型",
+              "shortname": "工银医疗保健股票",
+              "hightlight": "000831_<font color='#ff4400'>工银</font><font color='#ff4400'>医疗</font>保健<font color='#ff4400'>股票</font>",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYYLBJGP",
+              "abbtname": "GONGYINYILIAOBAOJIANGUPIAO",
+              "foreshortname": "工银医疗保健股票",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            },
+            {
+              "fcode": "159167",
+              "showfcode": "159167",
+              "ftype": "指数型-股票",
+              "shortname": "港股通医疗ETF工银",
+              "hightlight": "159167_港股通<font color='#ff4400'>医疗</font>ETF<font color='#ff4400'>工银</font>",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GGTYLETFGY",
+              "abbtname": "GANGGUTONGYILIAOETFGONGYIN",
+              "foreshortname": "港股通医疗ETF工银",
+              "t": "I",
+              "p": "F",
+              "f": "E",
+              "newtexch": "0",
+              "isOpenTJD": "0",
+              "stkexchg": "0",
+              "fundexchg": "",
+              "isBuy": "0"
+            },
+            {
+              "fcode": "029043",
+              "showfcode": "029043",
+              "ftype": "指数型-股票",
+              "shortname": "工银中证港股通医疗主题ETF发起式联接A",
+              "hightlight": "029043_<font color='#ff4400'>工银</font>中证港股通<font color='#ff4400'>医疗</font>主题ETF发起式联接A",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYZZGGTYLZTETFFQSLJA",
+              "abbtname": "GONGYINZHONGZHENGGANGGUTONGYILIAOZHUTIETFFAQISHILIANJIEA",
+              "foreshortname": "工银中证港股通医疗主题ETF发起式联接A",
+              "t": "L",
+              "p": "F",
+              "f": "N",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "0",
+              "fundexchg": "",
+              "isBuy": "0"
+            },
+            {
+              "fcode": "029044",
+              "showfcode": "029044",
+              "ftype": "指数型-股票",
+              "shortname": "工银中证港股通医疗主题ETF发起式联接C",
+              "hightlight": "029044_<font color='#ff4400'>工银</font>中证港股通<font color='#ff4400'>医疗</font>主题ETF发起式联接C",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYZZGGTYLZTETFFQSLJC",
+              "abbtname": "GONGYINZHONGZHENGGANGGUTONGYILIAOZHUTIETFFAQISHILIANJIEC",
+              "foreshortname": "工银中证港股通医疗主题ETF发起式联接C",
+              "t": "L",
+              "p": "F",
+              "f": "N",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "0",
+              "fundexchg": "",
+              "isBuy": "0"
+            },
+            {
+              "fcode": "011373",
+              "showfcode": "011373",
+              "ftype": "股票型",
+              "shortname": "招商前沿医疗保健股票A",
+              "hightlight": "011373_招商<font color='#ff4400'>前沿</font><font color='#ff4400'>医疗</font>保健<font color='#ff4400'>股票</font>A",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "ZSQYYLBJGPA",
+              "abbtname": "ZHAOSHANGQIANYANYILIAOBAOJIANGUPIAOA",
+              "foreshortname": "招商前沿医疗保健股票A",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            },
+            {
+              "fcode": "011374",
+              "showfcode": "011374",
+              "ftype": "股票型",
+              "shortname": "招商前沿医疗保健股票C",
+              "hightlight": "011374_招商<font color='#ff4400'>前沿</font><font color='#ff4400'>医疗</font>保健<font color='#ff4400'>股票</font>C",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "ZSQYYLBJGPC",
+              "abbtname": "ZHAOSHANGQIANYANYILIAOBAOJIANGUPIAOC",
+              "foreshortname": "招商前沿医疗保健股票C",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            },
+            {
+              "fcode": "002861",
+              "showfcode": "002861",
+              "ftype": "股票型",
+              "shortname": "工银智能制造股票A",
+              "hightlight": "002861_<font color='#ff4400'>工银</font>智能制造<font color='#ff4400'>股票</font>A",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYZNZZGPA",
+              "abbtname": "GONGYINZHINENGZHIZAOGUPIAOA",
+              "foreshortname": "工银智能制造股票A",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            },
+            {
+              "fcode": "022710",
+              "showfcode": "022710",
+              "ftype": "股票型",
+              "shortname": "工银智能制造股票C",
+              "hightlight": "022710_<font color='#ff4400'>工银</font>智能制造<font color='#ff4400'>股票</font>C",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYZNZZGPC",
+              "abbtname": "GONGYINZHINENGZHIZAOGUPIAOC",
+              "foreshortname": "工银智能制造股票C",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            },
+            {
+              "fcode": "001496",
+              "showfcode": "001496",
+              "ftype": "股票型",
+              "shortname": "工银聚焦30股票",
+              "hightlight": "001496_<font color='#ff4400'>工银</font>聚焦30<font color='#ff4400'>股票</font>",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYJJ30GP",
+              "abbtname": "GONGYINJUJIAO30GUPIAO",
+              "foreshortname": "工银聚焦30股票",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            },
+            {
+              "fcode": "000793",
+              "showfcode": "000793",
+              "ftype": "股票型",
+              "shortname": "工银高端制造股票",
+              "hightlight": "000793_<font color='#ff4400'>工银</font>高端制造<font color='#ff4400'>股票</font>",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYGDZZGP",
+              "abbtname": "GONGYINGAODUANZHIZAOGUPIAO",
+              "foreshortname": "工银高端制造股票",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            },
+            {
+              "fcode": "001008",
+              "showfcode": "001008",
+              "ftype": "股票型",
+              "shortname": "工银国企改革股票",
+              "hightlight": "001008_<font color='#ff4400'>工银</font>国企改革<font color='#ff4400'>股票</font>",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYGQGGGP",
+              "abbtname": "GONGYINGUOQIGAIGEGUPIAO",
+              "foreshortname": "工银国企改革股票",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            },
+            {
+              "fcode": "001409",
+              "showfcode": "001409",
+              "ftype": "股票型",
+              "shortname": "工银互联网加股票",
+              "hightlight": "001409_<font color='#ff4400'>工银</font>互联网加<font color='#ff4400'>股票</font>",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYHLWJGP",
+              "abbtname": "GONGYINHULIANWANGJIAGUPIAO",
+              "foreshortname": "工银互联网加股票",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            },
+            {
+              "fcode": "001158",
+              "showfcode": "001158",
+              "ftype": "股票型",
+              "shortname": "工银新材料新能源股票",
+              "hightlight": "001158_<font color='#ff4400'>工银</font>新材料新能源<font color='#ff4400'>股票</font>",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYXCLXNYGP",
+              "abbtname": "GONGYINXINCAILIAOXINNENGYUANGUPIAO",
+              "foreshortname": "工银新材料新能源股票",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            },
+            {
+              "fcode": "001054",
+              "showfcode": "001054",
+              "ftype": "股票型",
+              "shortname": "工银新金融股票A",
+              "hightlight": "001054_<font color='#ff4400'>工银</font>新金融<font color='#ff4400'>股票</font>A",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYXJRGPA",
+              "abbtname": "GONGYINXINJINRONGGUPIAOA",
+              "foreshortname": "工银新金融股票A",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            },
+            {
+              "fcode": "001245",
+              "showfcode": "001245",
+              "ftype": "股票型",
+              "shortname": "工银生态环境股票A",
+              "hightlight": "001245_<font color='#ff4400'>工银</font>生态环境<font color='#ff4400'>股票</font>A",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYSTHJGPA",
+              "abbtname": "GONGYINSHENGTAIHUANJINGGUPIAOA",
+              "foreshortname": "工银生态环境股票A",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            },
+            {
+              "fcode": "001171",
+              "showfcode": "001171",
+              "ftype": "股票型",
+              "shortname": "工银养老产业股票A",
+              "hightlight": "001171_<font color='#ff4400'>工银</font>养老产业<font color='#ff4400'>股票</font>A",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYYLCYGPA",
+              "abbtname": "GONGYINYANGLAOCHANYEGUPIAOA",
+              "foreshortname": "工银养老产业股票A",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            },
+            {
+              "fcode": "013355",
+              "showfcode": "013355",
+              "ftype": "股票型",
+              "shortname": "工银新金融股票C",
+              "hightlight": "013355_<font color='#ff4400'>工银</font>新金融<font color='#ff4400'>股票</font>C",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYXJRGPC",
+              "abbtname": "GONGYINXINJINRONGGUPIAOC",
+              "foreshortname": "工银新金融股票C",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            },
+            {
+              "fcode": "015002",
+              "showfcode": "015002",
+              "ftype": "股票型",
+              "shortname": "工银生态环境股票C",
+              "hightlight": "015002_<font color='#ff4400'>工银</font>生态环境<font color='#ff4400'>股票</font>C",
+              "fcodetype": 0,
+              "secondfcodetype": 0,
+              "abbname": "GYSTHJGPC",
+              "abbtname": "GONGYINSHENGTAIHUANJINGGUPIAOC",
+              "foreshortname": "工银生态环境股票C",
+              "t": "S",
+              "p": "F",
+              "f": "",
+              "newtexch": "",
+              "isOpenTJD": "0",
+              "stkexchg": "1",
+              "fundexchg": "1",
+              "isBuy": "1"
+            }
+          ],
+          "resolution_selected": {
+            "fcode": "001717",
+            "showfcode": "001717",
+            "ftype": "股票型",
+            "shortname": "工银前沿医疗股票A",
+            "hightlight": "001717_<font color='#ff4400'>工银</font><font color='#ff4400'>前沿</font><font color='#ff4400'>医疗</font><font color='#ff4400'>股票</font>A",
+            "fcodetype": 0,
+            "secondfcodetype": 0,
+            "abbname": "GYQYYLGPA",
+            "abbtname": "GONGYINQIANYANYILIAOGUPIAOA",
+            "foreshortname": "工银前沿医疗股票A",
+            "t": "S",
+            "p": "F",
+            "f": "",
+            "newtexch": "",
+            "isOpenTJD": "0",
+            "stkexchg": "1",
+            "fundexchg": "1",
+            "isBuy": "1"
+          },
+          "risk_disclaimer": "风险提示：基金持仓、行业配置和 AI 摘要均基于公开披露报告或历史加工结果，不代表未来表现，也不等同于实时持仓，基金投资有风险，购买前请结合自身风险承受能力审慎决策。"
+        }
+      }
+    },
+    "field_interpretations": [
+      {
+        "field": "success",
+        "description": "接口是否成功",
+        "interpretation": "true 表示 持仓查询与 workflow 聚合成功"
+      },
+      {
+        "field": "errorCode",
+        "description": "业务错误码",
+        "interpretation": "0 表示成功，非 0 表示失败"
+      },
+      {
+        "field": "data.fund_profile",
+        "description": "基金基础信息与本次输入信息",
+        "interpretation": null
+      },
+      {
+        "field": "data.fund_profile.input_fund_id",
+        "description": "原始输入的基金代码或基金名称",
+        "interpretation": null
+      },
+      {
+        "field": "data.fund_profile.fund_code",
+        "description": "resolver 解析后的基金代码",
+        "interpretation": null
+      },
+      {
+        "field": "data.fund_profile.fund_name",
+        "description": "resolver 解析后的基金名称",
+        "interpretation": null
+      },
+      {
+        "field": "data.fund_profile.fund_type",
+        "description": "搜索结果返回的基金类型",
+        "interpretation": null
+      },
+      {
+        "field": "data.fund_profile.fund_btype",
+        "description": "基金二级类型",
+        "interpretation": null
+      },
+      {
+        "field": "data.fund_profile.etf_code",
+        "description": "ETF 联接或关联代码",
+        "interpretation": null
+      },
+      {
+        "field": "data.fund_profile.etf_shortname",
+        "description": "ETF 联接或关联基金简称",
+        "interpretation": null
+      },
+      {
+        "field": "data.request_context.report_period",
+        "description": "请求中的报告期字符串，格式 YYYY-MM-DD，多个用英文逗号分隔",
+        "interpretation": null
+      },
+      {
+        "field": "data.request_context.period_mode",
+        "description": "实际报告期查询模式",
+        "interpretation": "latest / specified / recent_5y"
+      },
+      {
+        "field": "data.request_context.holding_type",
+        "description": "请求中的持仓类型过滤",
+        "interpretation": "stock / bond / all"
+      },
+      {
+        "field": "data.holding_overview.report_date",
+        "description": "当前展示报告期，通常取 periods 的第一期",
+        "interpretation": null
+      },
+      {
+        "field": "data.holding_overview.available_report_dates",
+        "description": "该基金实际可用报告期列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.holding_overview.top10_ratio_components",
+        "description": "重仓股票占净值比原始列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.holding_overview.data_lag_notice",
+        "description": "数据滞后说明",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock",
+        "description": "当前展示报告期的重仓股票列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock.GPJC",
+        "description": "股票持仓名称列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock.GPDM",
+        "description": "股票持仓代码列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock.JZBL",
+        "description": "股票持仓占基金净值比例列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock.PCTNVCHGTYPE",
+        "description": "股票持仓变化类型列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock.PCTNVCHG",
+        "description": "股票持仓较上期变化幅度列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock.INDEXCODE",
+        "description": "股票持仓所属行业代码列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock.INDEXNAME",
+        "description": "股票持仓所属行业名称列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.stock.HOLDCOUNT",
+        "description": "股票进入重仓列表期数或统计次数",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.bond",
+        "description": "当前展示报告期的重仓债券列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.fof",
+        "description": "当前展示报告期的 FOF/持仓基金列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.etf_code",
+        "description": "ETF 联接或关联代码",
+        "interpretation": null
+      },
+      {
+        "field": "data.top_holdings.etf_shortname",
+        "description": "ETF 联接或关联基金简称",
+        "interpretation": null
+      },
+      {
+        "field": "data.asset_allocation",
+        "description": "当前展示报告期的资产配置",
+        "interpretation": null
+      },
+      {
+        "field": "data.industry_allocation",
+        "description": "当前展示报告期的行业配置",
+        "interpretation": null
+      },
+      {
+        "field": "data.period_mode",
+        "description": "本次 持仓查询采用的报告期模式",
+        "interpretation": null
+      },
+      {
+        "field": "data.periods",
+        "description": "按报告期聚合后的完整持仓结果列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.available_report_dates",
+        "description": "该基金实际可用报告期列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.warnings",
+        "description": "取数流程返回的非阻断提示",
+        "interpretation": null
+      },
+      {
+        "field": "data.invalid_fund_codes",
+        "description": "无效或无可用持仓数据的基金代码列表",
+        "interpretation": null
+      },
+      {
+        "field": "data.field_profile",
+        "description": "字段口径标识",
+        "interpretation": null
+      },
+      {
+        "field": "data.source",
+        "description": "结果口径标识",
+        "interpretation": null
+      },
+      {
+        "field": "data.ai_summary.report_date",
+        "description": "AI 摘要接口返回的摘要日期；该接口仅按基金代码查询，不随 report_period 过滤，可能与本次指定报告期不一致",
+        "interpretation": null
+      },
+      {
+        "field": "data.ai_summary.fund_code",
+        "description": "AI 摘要对应基金代码",
+        "interpretation": null
+      },
+      {
+        "field": "data.ai_summary.text",
+        "description": "AI 持仓摘要文本，由独立 AI 摘要接口按基金代码补充；使用时应同时关注 data.ai_summary.report_date",
+        "interpretation": null
+      },
+      {
+        "field": "data.disambiguation_candidates",
+        "description": "名称歧义时的候选基金列表，供上层引导用户选择",
+        "interpretation": null
+      },
+      {
+        "field": "data.resolution_selected",
+        "description": "resolver 自动选中的基金候选",
+        "interpretation": null
+      },
+      {
+        "field": "data.risk_disclaimer",
+        "description": "风险提示语",
+        "interpretation": null
+      }
+    ],
+    "resolution_info": {
+      "resolver_id": "fund_code_by_identifier",
+      "input_type": "fund_id",
+      "input_field": "fund_id",
+      "input_value": "工银前沿医疗股票",
+      "selected_code": "001717",
+      "selected_name": "工银前沿医疗股票A",
+      "selected_partner": null,
+      "match_level": "normalized_exact",
+      "match_score": 95,
+      "candidate_count": 20,
+      "total_count": 1964,
+      "used_fallback": false,
+      "auto_selected": true,
+      "needs_disambiguation": false,
+      "warning": null,
+      "candidates": [
+        {
+          "code": "001717",
+          "name": "工银前沿医疗股票A"
+        },
+        {
+          "code": "010685",
+          "name": "工银前沿医疗股票C"
+        },
+        {
+          "code": "000831",
+          "name": "工银医疗保健股票"
+        },
+        {
+          "code": "159167",
+          "name": "港股通医疗ETF工银"
+        },
+        {
+          "code": "029043",
+          "name": "工银中证港股通医疗主题ETF发起式联接A"
+        },
+        {
+          "code": "029044",
+          "name": "工银中证港股通医疗主题ETF发起式联接C"
+        },
+        {
+          "code": "011373",
+          "name": "招商前沿医疗保健股票A"
+        },
+        {
+          "code": "011374",
+          "name": "招商前沿医疗保健股票C"
+        },
+        {
+          "code": "002861",
+          "name": "工银智能制造股票A"
+        },
+        {
+          "code": "022710",
+          "name": "工银智能制造股票C"
+        }
+      ]
+    }
+  }
+}
