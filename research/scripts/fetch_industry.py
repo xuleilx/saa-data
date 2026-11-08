@@ -4,10 +4,12 @@ import os
 import subprocess
 import sys
 import time
+from pathlib import Path
 
-ROOT = "/home/work/workspace01/bmc/xuleihs/study/saa"
-CLI = os.path.join(ROOT, ".qoder/skills/hithink-astock-selector/scripts/cli.py")
-OUT = os.path.join(ROOT, ".cache/screen")
+DATA_ROOT = Path(__file__).resolve().parents[2]  # saa-data/
+ROOT = DATA_ROOT.parent                          # 主代码仓（saa-data 的父目录）
+CLI = str(ROOT / ".qoder/skills/hithink-astock-selector/scripts/cli.py")
+OUT = str(DATA_ROOT / "research" / "screen")
 
 INDUSTRIES = ["医药生物", "食品饮料", "传媒", "非银金融", "机械设备", "电力设备"]
 

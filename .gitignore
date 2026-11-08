@@ -2,3 +2,7 @@
 *.tmp
 *.log
 .DS_Store
+
+# 一次性脚本的字节码产物
+__pycache__/
+*.pyc

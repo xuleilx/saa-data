@@ -14,7 +14,9 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path("/home/work/workspace01/bmc/xuleihs/study/saa")
+DATA_ROOT = Path(__file__).resolve().parents[2]  # saa-data/
+ROOT = DATA_ROOT.parent                          # 主代码仓（saa-data 的父目录）
+SCREEN = DATA_ROOT / "research" / "screen"
 
 # name: (代码, 总市值亿, 2025全年, 2025H1, 2026H1, 年度净利序列)
 DATA = {
@@ -68,7 +70,7 @@ for name, (code, mcap, fy25, h125, h126, series) in DATA.items():
     })
 
 df = pd.DataFrame(recs).sort_values("prem", ascending=False)
-df.to_csv(ROOT / ".cache" / "screen" / "norm_pe_v2.csv", index=False)
+df.to_csv(SCREEN / "norm_pe_v2.csv", index=False)
 pd.set_option("display.width", 260, "display.max_columns", 30)
 print("=== 周期股正常化估值（按正常化溢价降序）===")
 print(df[["name", "mcap_yi", "pe_ttm", "norm_pe8", "norm_pe5", "pos", "prem",

@@ -12,7 +12,9 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path("/home/work/workspace01/bmc/xuleihs/study/saa")
+DATA_ROOT = Path(__file__).resolve().parents[2]  # saa-data/
+ROOT = DATA_ROOT.parent                          # 主代码仓（saa-data 的父目录）
+SCREEN = DATA_ROOT / "research" / "screen"
 sys.path.insert(0, str(ROOT))
 from saa.market.cape import _load_cpi, compute_cape_monthly  # noqa: E402
 
@@ -92,7 +94,7 @@ cols = ["code", "name", "industry", "close_now", "pe_now", "pe_pct",
         "cape60", "cape60_pct", "cape60_pos", "cape60_med", "cape60_fair",
         "eps_ttm", "eps_yoy", "months", "start"]
 res = res[[c for c in cols if c in res.columns]]
-res.to_csv(ROOT / ".cache" / "screen" / "stock_cape.csv", index=False)
+res.to_csv(SCREEN / "stock_cape.csv", index=False)
 pd.set_option("display.width", 240, "display.max_columns", 40)
 
 print("\n=== 个股 CAPE（窗口 120 月，不足则以全部可得月份替代）===")

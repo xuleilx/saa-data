@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """白酒竞争格局分析 PPTX 生成脚本（2026-10-09）"""
+from pathlib import Path
+
 from pptx import Presentation
 from pptx.util import Inches, Pt
 from pptx.dml.color import RGBColor
@@ -502,6 +504,9 @@ bullets(s, Inches(0.4), Inches(1.2), Inches(12.5), Inches(5.4), [
 footer(s, 18, "生成时间 2026-10-09")
 
 # ---------- save ----------
-out = "/home/work/workspace01/bmc/xuleihs/study/saa/tactical/analysis/2026-10-09-baijiu-competitive-landscape.pptx"
+# 成品进主仓分析目录（其 script 在 saa-data/research/scripts/，上三级为主仓根）
+out_dir = Path(__file__).resolve().parents[3] / "tactical" / "analysis"
+out_dir.mkdir(parents=True, exist_ok=True)
+out = str(out_dir / "2026-10-09-baijiu-competitive-landscape.pptx")
 prs.save(out)
 print("saved:", out)

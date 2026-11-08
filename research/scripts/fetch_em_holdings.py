@@ -6,12 +6,14 @@ import json
 import re
 import sys
 from io import StringIO
+from pathlib import Path
 
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
 CODE = "001717"
+DATA_ROOT = Path(__file__).resolve().parents[2]  # saa-data/
 URL = "https://fundf10.eastmoney.com/FundArchivesDatas.aspx"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -75,7 +77,8 @@ def main() -> None:
             all_records.extend(recs)
         except Exception as e:  # noqa: BLE001
             print(f"{y}: 失败 {e}")
-    out = f".cache/ttfund/em_holding_{years[0]}_{years[-1]}.json"
+    out = str(DATA_ROOT / "research" / "ttfund" / f"em_holding_{years[0]}_{years[-1]}.json")
+    Path(out).parent.mkdir(parents=True, exist_ok=True)
     with open(out, "w", encoding="utf-8") as f:
         json.dump(all_records, f, ensure_ascii=False, indent=1)
     print("saved:", out, "| 总记录:", len(all_records))

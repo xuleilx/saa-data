@@ -11,14 +11,16 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path("/home/work/workspace01/bmc/xuleihs/study/saa")
+DATA_ROOT = Path(__file__).resolve().parents[2]  # saa-data/
+ROOT = DATA_ROOT.parent                          # 主代码仓（saa-data 的父目录）
 CLI = ROOT / ".qoder/skills/hithink-finance-query/scripts/cli.py"
+SCREEN = DATA_ROOT / "research" / "screen"
 
 NAMES = ["宁德时代", "中国中车", "杭叉集团", "华泰证券", "中国平安",
          "吉比特", "巨人网络", "华东医药", "羚锐制药", "东鹏饮料"]
 FIELDS = "近8年归母净利润 总市值 市盈率ttm 市净率"
 
-out_path = ROOT / ".cache" / "screen" / "norm_pe_raw.json"
+out_path = SCREEN / "norm_pe_raw.json"
 rows = []
 for i in range(0, len(NAMES), 5):
     batch = NAMES[i:i + 5]
@@ -94,7 +96,7 @@ for it in rows:
     })
 
 df = pd.DataFrame(recs)
-df.to_csv(ROOT / ".cache" / "screen" / "norm_pe.csv", index=False)
+df.to_csv(SCREEN / "norm_pe.csv", index=False)
 pd.set_option("display.width", 260, "display.max_columns", 30, "display.max_colwidth", 90)
 print("\n=== 正常化 PE：市值 / 近8年归母均值 ===")
 print(df[["name", "mcap_yi", "pe_ttm", "avg8_yi", "norm_pe8", "norm_pe5",

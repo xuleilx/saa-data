@@ -3,11 +3,15 @@
 import json
 import re
 import os
+from pathlib import Path
+
+DATA_ROOT = Path(__file__).resolve().parents[2]  # saa-data/
+INQUIRIES = DATA_ROOT / "research" / "inquiries"
 
 files = ["wc_2021", "wc_2022", "wc_2023", "wc_2024", "wc_2025", "wc_2026h1"]
 companies = {}
 for lab in files:
-    path = f".cache/{lab}.json"
+    path = str(INQUIRIES / f"{lab}.json")
     if not os.path.exists(path):
         print("missing", path)
         continue
