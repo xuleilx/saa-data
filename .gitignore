@@ -1,16 +1,4 @@
+# saa-data 只存放版本化数据；可丢弃缓存一律在主仓 data/cache/
 *.tmp
 *.log
 .DS_Store
-# 主仓 .cache 上其它本地目录（不纳入 saa-data）
-/temperature/
-/gold-returns/
-/cb-valuation/
-/commodity-temperature/
-/index-valuation/
-/value-screener/
-/daily-report/
-/tech-analysis/
-/fund-query/
-/pylib/
-# cape 只入库 raw 原始序列，临时脚本留在本地
-/cape/*.py

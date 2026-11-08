@@ -2,8 +2,10 @@
 import glob
 import json
 import os
+from pathlib import Path
 
-OUT = "/home/work/workspace01/bmc/xuleihs/study/saa/.cache/screen"
+# 输出目录：saa-data/research/screen（本文件位于 research/scripts/，上两级即仓库根）
+OUT = str(Path(__file__).resolve().parents[2] / "research" / "screen")
 
 
 def pick(item, key_prefix, default=None):
